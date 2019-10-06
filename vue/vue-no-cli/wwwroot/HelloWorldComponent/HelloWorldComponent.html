@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Application required librairies -->
+    <script src="../../node_modules/vue/dist/vue.js"></script>
+</head>
+
+<body>
+    <div id="vueApp">
+        <template>
+            <div>
+                <!-- 
+                    Use component to render the input box and 
+                    :message is a property passed to the component which contains the default string  to be displayed  streod in the message variable 
+                    @message-updated-event define which method is called in the app when the event is fired by the child component
+                -->
+                <input-component 
+                    message ="Hello weary traveler from component"                                              
+                    @message-updated-event = "onMessageUpdated"></input-component>
+                <p> {{message}} </p>
+            </div>
+        </template>
+    </div>
+</body>
+
+<!-- Vue component JavaScript file compiled by TypeScript -->
+<script src="../lib/HelloWorldComponent/InputComponent.js"></script>
+<!-- Vue app JavaScript file compiled by TypeScript -->
+<script src="../lib/HelloWorldComponent/HelloWorldComponent.js"></script>
+</html>
