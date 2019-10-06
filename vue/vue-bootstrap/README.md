@@ -1,22 +1,19 @@
-# VueJS basic examples 
+# VueJS integration with bootstrap examples 
 
 ## Description
-A very simple project of Vue JS examples with the following goals:
-
-- Avoid using vue cli, webpack, etc. to keep everything simple  
-- Using TypeScript 
+Integration using the [BootstrapVue](https://bootstrap-vue.js.org/) library
 
 ## Installation steps 
 
 1. Follow steps in ```examples/README.md``` file
 2. Open a terminal in the examples folder
 ~~~
-$ cd vue-no-cli
+$ cd vue\vue-bootstrap
 $ tsc --watch
 ~~~
 3. To run a example just open the HTML file in a browser.
 
 ## Examples library 
 
- - **HelloWord**: Very basic Vue Hello world application.   
+ - **01-BasicExample**: A simple application with a dropdowncountry.   
  - **HelloWordComponent**: Vue application with a component (using prop and event)

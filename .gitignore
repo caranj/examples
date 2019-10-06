@@ -60,7 +60,6 @@ typings/
 # next.js build output
 .next
 
-# TypeScript compilet output dir 
-wwwroot/lib/
-wwwroot/lib/
-examples/typescript/*.js
+# TypeScript compiler output JS file 
+typescript/*/*.js
+vue/*/wwwroot/lib/
